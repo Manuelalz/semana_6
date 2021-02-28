@@ -1,0 +1,65 @@
+.letras{
+position: absolute;
+left: 34%;
+font-size: 30px;
+font-family: 'Brush Script MT';
+}
+
+.cuagrande{
+position: absolute;
+top: 60%;
+left: 33%;
+width: 35%;
+height: 35%;
+background-color: yellow;
+}
+
+.cuapeque{
+position: absolute;
+top: 29%;
+left: 36%;
+width: 30%;
+height: 20%;
+background-color: lightblue;
+}
+
+.texto{
+position: absolute;
+left: 5%;
+}
+
+.opW{
+position: absolute;
+top: 60%;
+left: 13%;
+width: 35%;
+height: 35%;
+background-color: #FECE42;
+font-size: 30px;
+font-family: Courier;
+text-align: center;
+}
+
+.opX{
+position: absolute;
+top: 60%;
+left: 33%;	
+width: 35%;
+height: 35%;
+background-color: #FB33EC;
+font-size: 35px;
+font-family: 'Candara';
+text-align: center;
+}
+
+.opK{
+position: absolute;
+top: 60%;
+left: 53%;
+width: 35%;
+height: 35%;
+background-color: #BBFB33;
+font-size: 35px;
+font-family: 'Brush Script MT';
+text-align: center;
+}

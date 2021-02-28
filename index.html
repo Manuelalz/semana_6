@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad Semana 6</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body onkeypress="teclado();" background="fondo.png">
+	<div class="letras"><center>
+		<br>Digite:
+		La letra W / La letra X / La letra K
+		<p>Y observe la magia</p>
+	</center></div>
+	<div class="cuagrande" id="cuagrande"></div>
+	<div class="cuapeque" id="cuapeque"><br><textarea id="texto" rows="5" cols="50" class="texto"></textarea></div>
+<script>
+	function teclado()
+	{
+		if(event.code=="KeyW")
+		{
+			var n1=document.getElementById('texto').value;
+			var n2=document.getElementById('cuagrande');
+			n2.innerHTML=n1;
+			n2.className="opW";
+		}
+
+		if(event.code=="KeyX")
+		{
+			var n1=document.getElementById('texto').value;
+			var n2=document.getElementById('cuagrande');
+			n2.innerHTML=n1;
+			n2.className="opX";
+		}
+
+		if(event.code=="KeyK")
+		{
+			var n1=document.getElementById('texto').value;
+			var n2=document.getElementById('cuagrande');
+			n2.innerHTML=n1;
+			n2.className="opK";
+		}
+	}
+
+</script>
+</body>
+</html>
